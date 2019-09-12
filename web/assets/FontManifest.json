@@ -10,5 +10,12 @@
         }],
 
         "family": "GoogleSansRegular"
+    },
+    {
+        "fonts": [{
+            "asset": "Poppins-Regular.ttf"
+        }],
+
+        "family": "Poppins"
     }
 ]
