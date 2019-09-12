@@ -8,6 +8,6 @@ This web project is [live.](https://imabhishekkumar.github.io/Portfolio_Flutter/
 ## Small Screen
 
 <img src="https://github.com/imabhishekkumar/Portfolio_Flutter/blob/master/screenshots/light_smallScreen.png?raw=true" height="500"
-width="270">
+width="300"><br>
 <img src="https://github.com/imabhishekkumar/Portfolio_Flutter/blob/master/screenshots/dark_smallScreen.png?raw=true" height="500"
-width="270">
+width="300">
