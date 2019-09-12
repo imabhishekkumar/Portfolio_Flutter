@@ -1,0 +1,21 @@
+[{
+        "fonts": [{
+            "asset": "fonts/MaterialIcons-Regular.ttf"
+        }],
+        "family": "MaterialIcons"
+    },
+    {
+        "fonts": [{
+            "asset": "GoogleSansRegular.ttf"
+        }],
+
+        "family": "GoogleSansRegular"
+    },
+    {
+        "fonts": [{
+            "asset": "Poppins-Regular.ttf"
+        }],
+
+        "family": "Poppins"
+    }
+]
