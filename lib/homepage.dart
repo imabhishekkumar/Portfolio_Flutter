@@ -175,7 +175,7 @@ class SocialInfo extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           Row(
-            mainAxisAlignment: MainAxisAlignment.start,
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               socialMediaWidgets(),
             ],
@@ -183,7 +183,7 @@ class SocialInfo extends StatelessWidget {
         ],
       ),
       smallScreen: Row(
-        mainAxisAlignment: MainAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           socialMediaWidgets(),
         ],
