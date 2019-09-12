@@ -20733,7 +20733,7 @@ case C.a6:m=g
 break
 default:m=g}n=L.ye(T.df(g,n,!1,g,!1,!0,g,g,m,g,g,g),g,C.ba,!1,q,g)
 u=b.f
-l=T.ry(u,C.bO,C.bl,C.p0)
+l=T.ry(u,C.bO,C.dn,C.p0)
 b=b.Du(f)
 u=h.a
 u.toString
@@ -25955,13 +25955,13 @@ b1.bN=Math.max(0,-a4)
 a5=Math.max(0,a4)
 j=F.RR(b1.F,b1.aE,b1.a5)
 a6=j===!1
-switch(b1.X){case C.bl:a7=0
+switch(b1.X){case C.dn:a7=0
 a8=0
 break
 case C.oY:a7=a5
 a8=0
 break
-case C.dn:a7=a5/2
+case C.bl:a7=a5/2
 a8=0
 break
 case C.ie:a8=p>1?a5/(p-1):0
@@ -42187,7 +42187,7 @@ Q.Np.prototype={}
 E.AV.prototype={
 KW:function(){var u="Poppins",t=null,s=H.V(this.c),r=L.nH("Hello!",A.hc(t,t,s?C.m:C.q,t,t,t,t,t,u,t,34,t,C.az,t,t,!0,t,t,t,t,t,t),C.b9),q=L.nH("I'm Abhishek Kumar from Chennai, India.",A.hc(t,t,Q.lW(101,96,237,1),t,t,t,t,t,u,t,30,t,C.az,t,t,!0,t,t,t,t,t,t),C.b9),p=L.nH("I am passionate about building applications for mobile and web with beautiful interfaces and experiences.",A.hc(t,t,t,t,t,t,t,t,u,t,20,t,t,t,t,!0,t,t,t,t,t,t),C.b9),o=L.nH("Resume",A.hc(t,t,s?C.q:C.m,t,t,t,t,t,u,t,t,t,t,t,t,!0,t,t,t,t,t,t),t)
 return H.e([new T.bR(C.mC,new T.eY(C.J,t,t,r,t),t),new T.eY(C.J,t,t,new T.bR(C.af,q,t),t),new T.eY(C.J,t,t,new T.bR(C.af,p,t),t),new T.eY(C.J,t,t,new N.zl(new E.AW(),t,t,C.m,t,Q.lW(101,96,237,1),t,t,t,t,t,t,o,t,t,t,t,t,t),t)],[N.aG])},
-S:function(a){return T.Ph(this.KW(),C.bl)}}
+S:function(a){return T.Ph(this.KW(),C.dn)}}
 E.AW.prototype={
 $0:function(){C.I.ez(window,"https://www.abhishekkumar.dev/resume.pdf","Resume")},
 $C:"$0",
@@ -42244,8 +42244,8 @@ t=[N.aG]
 u=H.e([new N.nD(r,o,Q.lW(101,96,237,1),u,s)],t)
 o=F.dH(a,!1).a.a
 if(typeof o!=="number")return o.W()
-o=o>800?T.ry(H.e([new E.rU(s)],t),C.aS,C.dn,C.aN):new E.rU(s)
-t=T.Ph(H.e([new E.AV(r,s),new T.bR(new V.aR(0,0,0,64),s,s),new T.bR(C.af,o,s)],t),C.dn)
+o=o>800?T.ry(H.e([new E.rU(s)],t),C.aS,C.bl,C.aN):new E.rU(s)
+t=T.Ph(H.e([new E.AV(r,s),new T.bR(new V.aR(0,0,0,64),s,s),new T.bR(C.af,o,s)],t),C.bl)
 return new M.kS(new E.pe(p,u,q,new Q.a_(1/0,56),s),new E.FS(!0,t,s),!1,s)}}
 B.EL.prototype={
 S:function(a){return new A.fc(new B.EM(this),null)}}
@@ -44274,9 +44274,9 @@ C.tw=new D.eN(C.e_,C.e0)
 C.tx=new D.eN(C.e0,C.e_)
 C.nA=H.e(u([C.tv,C.ty,C.tw,C.tx]),[D.eN])
 C.oX=new E.BF("longPress")
-C.bl=new F.fe("MainAxisAlignment.start")
+C.dn=new F.fe("MainAxisAlignment.start")
 C.oY=new F.fe("MainAxisAlignment.end")
-C.dn=new F.fe("MainAxisAlignment.center")
+C.bl=new F.fe("MainAxisAlignment.center")
 C.ie=new F.fe("MainAxisAlignment.spaceBetween")
 C.oZ=new F.fe("MainAxisAlignment.spaceAround")
 C.p_=new F.fe("MainAxisAlignment.spaceEvenly")
